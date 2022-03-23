@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cameraRenderer="clr-namespace:PoHWallet.Views.Components.CameraRenderer"
+             x:Class="PoHWallet.Views.VideoRecorder">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <cameraRenderer:CameraPreview Camera="Front"
+							 HorizontalOptions="FillAndExpand"
+							 VerticalOptions="CenterAndExpand" />
+            <StackLayout BackgroundColor="Transparent">
+                <Label Text="I certify that I am a real human and that I a not alrady registered in this registered" FontSize="30" BackgroundColor="Transparent" />
+                <Label Text="0xabcde11234567acbd" FontSize="30" BackgroundColor="Transparent" />
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
